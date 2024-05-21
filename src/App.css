@@ -1,0 +1,73 @@
+/* Estilo global para la aplicación */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para el contenedor de imágenes */
+  img {
+    display: block;
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Estilo para la navegación */
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #343a40;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+  }
+  
+  .navigation figure {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff8b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px; /* Ancho fijo para todas las figuras */
+    height: 150px; /* Alto fijo para todas las figuras */
+    overflow: hidden; /* Para asegurar que las imágenes se ajusten al contenedor */
+  }
+  
+  .navigation figcaption {
+    margin-top: 5px;
+    font-size: 0.9em;
+  }
+  
+  /* Estilo para los enlaces de navegación */
+  .navigation a:hover figcaption {
+    color: #ffc107;
+  }
+  
+  figure {
+    transition: transform 0.2s;
+  }
+  
+  figure:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Ajuste de tamaño para las imágenes dentro de las figuras */
+  .navigation figure img {
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+    width: 100%;
+    height: 100%;
+  }
+  

@@ -1,4 +1,5 @@
 import './App.css';
+<<<<<<< HEAD
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Paisaje1 from './components/Paisaje1';
 import Paisaje2 from './components/Paisaje2';
@@ -31,6 +32,14 @@ function App() {
       </Routes>
       <Navegation/>
     </Router>
+=======
+
+function App() {
+  return (
+    <div className="">
+      
+    </div>
+>>>>>>> ed62aad2021421ce4bbbaeaee146a11ebbdcf801
   );
 }
 
